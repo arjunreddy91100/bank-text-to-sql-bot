@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# The database is rebuilt from the CSV with: python step1_build_database.py
+bank.db
+
+# Secrets, if you switch to Azure OpenAI later
+.env
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
